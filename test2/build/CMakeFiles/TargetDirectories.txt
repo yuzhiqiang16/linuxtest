@@ -1,0 +1,3 @@
+/home/gaoyang212/vsproject/test2/build/CMakeFiles/rebuild_cache.dir
+/home/gaoyang212/vsproject/test2/build/CMakeFiles/my_cmake.dir
+/home/gaoyang212/vsproject/test2/build/CMakeFiles/edit_cache.dir
