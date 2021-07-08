@@ -1,0 +1,3 @@
+/home/gaoyang212/vsproject/test3/build/CMakeFiles/rebuild_cache.dir
+/home/gaoyang212/vsproject/test3/build/CMakeFiles/TemplateClassTest1.dir
+/home/gaoyang212/vsproject/test3/build/CMakeFiles/edit_cache.dir

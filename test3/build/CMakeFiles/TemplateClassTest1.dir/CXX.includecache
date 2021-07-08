@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BigNumber.h
+iostream
+-
+
+/home/gaoyang212/vsproject/test3/main.cpp
+BigNumber.h
+/home/gaoyang212/vsproject/test3/BigNumber.h
+iostream
+/home/gaoyang212/vsproject/test3/iostream
+

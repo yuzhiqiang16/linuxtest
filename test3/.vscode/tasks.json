@@ -1,0 +1,43 @@
+{   
+    "version": "2.0.0",
+    "option":
+    {
+        "cwd": "${cwd}",
+    },
+    "tasks": 
+    [
+        {
+            "type": "shell",
+            "label": "cmake",
+            
+            "command": "cmake",
+            "args": 
+            [
+                 ".."
+            ],
+        },
+        {
+            "label": "make",
+            "group":
+            {
+                "kind": "build",
+                "isDefault":true
+            },
+            "command": "make",
+            "args":
+            [
+
+            ]
+        },
+        {
+            "label": "build",
+            "dependsOrder": "sequence",   //an zhao lie chu de shun xu zhi xing ren wu yi lai xiang
+            "dependsOn":
+            [
+                "cmake",
+                "make"
+            ]
+        }
+    ],
+    
+}
